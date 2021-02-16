@@ -5,10 +5,6 @@ try:
     from requests import get
     from bs4 import BeautifulSoup
 except:
-    print("{}To run program I have to install nmap module{}\n".format(BLUE, RED))
-    czy = input("Can I install? (y/n): ")
-    print('{}'.format(GREEN))
-    
     if czy == 'y' or czy == 'yes' or czy == 'YES' or czy == 'Y':
         from subprocess import call
         from sys import executable
